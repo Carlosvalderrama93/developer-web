@@ -13,6 +13,7 @@ With that clear, I will try start the developing with the mobile firts methodolo
 I don't know how far I will go tonight, but I will try make all the HTML code. To start tomorrow to style it.
 
 **Monday April 4, 2022**
+
 Yesterday I worked until at 10:00 p.m. and I was able advance to the form in the final homepage.
 Today I was working in many things, like the next:
 1. I was finishing the form, that task was a little hard to me, because I don't knew how modify the font-size of placeholder.
@@ -20,3 +21,7 @@ Today I was working in many things, like the next:
 3. It was 10:30 at night and I was finishing the Media Query from Desktop view and everything broke. I don´t have idea how it happened, but I thing that could be because I added the next code: display: flex !important;
 What happens is that the width of the device is not respected.The width is exceeded.
 4. Maybe tomorrow I can fix the problem. By now I will a push in a branch, and after of that I will go to sleep.
+
+**Tuesday,  April 5, 2022**
+
+Today I was able to solve yestarday problem. But now I found a new problem related to images. these images don´t respect the width and the heigth. I don't know why, but tomorrow I will try to solve it.
