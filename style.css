@@ -110,41 +110,43 @@ header {
 }
 
 .img-info {
-    display: flex;
+    display:flex;
 }
 
-.img-info div {
-    /*Necesito hacer que cambie a 
-    color morado cuando el puntero
-    esté sobre una imagen*/
-    min-width: 15%;
-    min-height: 15%;
-
-    margin: 0;
-    padding: 0;
-
-    background-color: #d9d6ea;
-    border: solid 1px #7562E0;
+.img-container {
+    width: 200px;
+    height: 200px;
+    padding: 1%;
+    background-color: white;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
+    justify-content:flex-end;
     align-items: center;
+    text-align: center;
 
 }
 
-.img-info img {
+
+.img-container img {
     /*Necesito hacer que cambie a 
     color morado cuando el puntero
     esté sobre una imagen*/
-    width: 50px;
-    height: 50px;
-    background-color: #d9d6ea;
-    border-radius: 0.5rem;    
+    background-color: white;
+    width: 50%;
+    margin: 5%;
+    padding-bottom: 1rem;
+
 }
 
 .img-info p {
-    background-color: #d9d6ea;
+    background-color: white;
     margin: 0 10%;
+    color: #181824;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 20%;
+    
 
 
 }
@@ -239,6 +241,8 @@ footer p {
     color: #d9d6ea;
     opacity: 30%;
 }
+
+
 /*Tablet*/
 @media (min-width:700px){
     body {
@@ -270,10 +274,10 @@ footer p {
         min-width: 12rem;
     }
 
-    .general-info div {
+    /*.general-info div {
         padding-bottom: 1rem;
         margin-bottom: 1rem;
-    }
+    }*/
 
     .general-info h2 {
         font-size: 2rem;
@@ -435,10 +439,6 @@ footer p {
 
     .years-experience p {
         font-size: 1.5rem;
-    }
-
-    .img-info {
-
     }
 
 }

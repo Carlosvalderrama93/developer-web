@@ -25,3 +25,7 @@ What happens is that the width of the device is not respected.The width is excee
 **Tuesday,  April 5, 2022**
 
 Today I was able to solve yestarday problem. But now I found a new problem related to images. these images don´t respect the width and the heigth. I don't know why, but tomorrow I will try to solve it.
+
+**Wendsday, April 6, 2022**
+
+It's 1:30 a.m. on April 7. Today I tried to solve the problem from yesterday but I couldn't. I spent all day trying to solve it, but finally I decided start again on a document called new.html and new.css. In this case I forgot the mobile firts methodology and comeback to develop for desktop firts. Why I do this? well, because when I was adding the Media Querys for the distins resolutions I found with a problem series that maked me feel very disorientated. By now largely finished desktop development. 
