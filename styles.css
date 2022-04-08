@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #181824;
+  color: aliceblue; /*Provisional*/
+  box-sizing: border-box;
+}
+
+/*Stylizing the header section*/
+header {
+  border-bottom: #7562e0 solid 1px;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.nav-var {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.nav-var div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7562e0;
+}
+
+.nav-var ul {
+  /*Debo agregar el pastelito*/
+  display: flex;
+  font-size: 1rem; /*Borrar*/
+  list-style: none;
+  font-weight: 500;
+}
+
+.nav-var li {
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.nav-var a {
+  text-decoration: none;
+}
+
+.nav-var button {
+  background-color: #7562e0;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin: 0 0.2rem 0 2rem;
+  font-weight: 500;
+  height: 2.2rem;
+  width: 7rem;
+  font-size: 1rem;
+}
+
+/*Starting with MAIN*/
+main {
+  max-width: 1500px;
+  margin: auto;
+  width: 95%;
+}
+/*Stylizing Hero Section*/
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 3% 0;
+  border-bottom: #7562e0 solid 1px;
+  margin-bottom: 2%;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-text {
+  padding: 1rem 2rem 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-text h1 {
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+}
+
+.hero-text span {
+  font-size: 3rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 30rem;
+  width: 80%;
+  margin: 0;
+}
+
+.hero-buttons button {
+  min-width: 80px;
+  width: 40%;
+  background-color: #7562e0;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 2%;
+}
+
+#special-button {
+  background-color: #181824;
+  border: #7562e0 solid 2px;
+}
+
+.hero > .non-important {
+  display: flex !important;
+  max-width: 50%;
+  object-position: center;
+}
+
+.non-important img {
+  object-fit: cover;
+  max-width: 100%;
+  object-position: center;
+}
+
+/*Starting with GENERAL INFO SECTION*/
+
+.general-info {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.general-info h2,
+h3 {
+  font-size: 2rem;
+  color: #7562e0;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+
+.general-info p {
+  font-size: 1.2rem;
+}
+
+/*About Me*/
+
+.about-me {
+  margin: 2% 0;
+}
+
+/*Experience*/
+
+.experience {
+  margin: 2% 0;
+}
+
+.years-experience {
+  display: flex;
+  align-items: center;
+  margin: 0 0 5% 0;
+}
+
+#years-style {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #7562e0;
+  margin-right: 2.5%;
+}
+
+.img-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.img-info p {
+  background-color: white;
+  margin: 0 10%;
+  color: #181824;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 20%;
+}
+
+.img-container {
+  min-width: 150px;
+  width: 25%;
+  height: 25%;
+  padding: 1%;
+  background-color: white;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin: 2%;
+}
+
+.img-container img {
+  /*Necesito hacer que cambie a 
+    color morado cuando el puntero
+    esté sobre una imagen*/
+  background-color: white;
+  width: 50%;
+  margin: 5%;
+  padding-bottom: 2%;
+}
+
+.projects {
+  margin: 2% 0;
+}
+
+.projects p {
+  padding-bottom: 5%;
+}
+
+.img-info-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.img-info-2 p {
+  background-color: #7562e0;
+  margin: 0 10%;
+  color: #181824;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 20%;
+}
+
+.images-2 {
+  min-width: 150px;
+  width: 25%;
+  height: 25%;
+  padding: 1%;
+  background-color: #7562e0;
+  border: 1px solid #7562e0;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin: 2%;
+}
+
+.images-2 img {
+  /*Necesito hacer que cambie a 
+    color morado cuando el puntero
+    esté sobre una imagen*/
+  width: 50%;
+  margin: 5%;
+  padding-bottom: 2%;
+  background-color: #7562e0;
+}
+
+/*Follow Me*/
+
+.write-me {
+  border-top: #7562e0 1px solid;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  flex-wrap: wrap;
+}
+
+.follow-me {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 500px;
+  margin-top: 5%;
+}
+
+.follow-me h3 {
+  color: white;
+  margin-bottom: 4%;
+}
+
+.follow-me p {
+  color: white;
+  margin-bottom: 10%;
+  width: 80%;
+  text-align: center;
+}
+
+.follow-me .img-info img {
+  width: 25px;
+  margin: 0 4% 0 0;
+}
+
+.follow-me .img-info {
+  height: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+}
+
+.contact-me {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  width: 70%;
+  max-width: 700px;
+}
+
+.contact-me h3 {
+  color: white;
+}
+
+.contact-me form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me input {
+  margin: 7px 0;
+  border: none;
+  text-align: center;
+  background-color: #33313c;
+  border-radius: 0.5rem;
+  height: 2.2rem;
+}
+
+.contact-me form ::placeholder {
+  color: #d9d6ea;
+  opacity: 70%;
+}
+
+.contact-me #message {
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-me button {
+  border: none;
+  background-color: #7562e0;
+  border-radius: 0.5rem;
+  height: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+}
+
+/*Footer*/
+footer {
+  border-top: #7562e0 1px solid;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2%;
+  padding: 1% 0;
+}
+
+footer p {
+  color: #d9d6ea;
+  opacity: 30%;
+}
+
+@media (max-width: 1079px) {
+  .nav-var {
+    width: 90%;
+  }
+
+  .nav-var button {
+    padding: 0.3rem;
+    margin: 0 0.2rem 0 1rem;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .general-info {
+    width: 90%;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text span {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .img-info {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .img-info-2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .contact-me {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .follow-me {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .follow-me p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 849px) {
+  .logo {
+    font-size: 1.9rem;
+  }
+
+  main {
+    width: 80%;
+  }
+  .nav-var .non-important {
+    display: none !important;
+  }
+
+  .hero > .non-important {
+    display: none !important;
+  }
+
+  .hero {
+    margin-bottom: 5%;
+  }
+
+  .hero-left {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .hero-text {
+    padding: 0;
+  }
+
+  .hero-text p {
+    margin-bottom: 5%;
+  }
+
+  .hero-text h1 {
+    text-align: center;
+  }
+
+  .hero-text span {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    margin: auto;
+    justify-content: space-around;
+  }
+
+  .hero-buttons button {
+    margin-bottom: 10%;
+  }
+
+  .about-me {
+    margin-bottom: 10%;
+  }
+
+  .about-me h2 {
+    text-align: center;
+  }
+
+  .about-me p {
+    text-align: justify;
+  }
+
+  .experience h2 {
+    text-align: center;
+  }
+
+  .years-experience {
+    margin-bottom: 10%;
+  }
+
+  .years-experience > .non-important {
+    display: none !important;
+  }
+
+  .experience p {
+    text-align: justify;
+  }
+
+  .projects h2 {
+    text-align: center;
+  }
+
+  .projects p {
+    text-align: justify;
+  }
+
+  .contact-me {
+    width: 100%;
+  }
+
+  .follow-me {
+    width: 100%;
+  }
+
+  .follow-me p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 499px) {
+  main {
+    width: 80%;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-var button {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 0.8rem;
+  }
+
+  .hero {
+    margin-top: 5%;
+  }
+
+  .hero-text {
+    padding: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #7562e0;
+    font-weight: 600;
+  }
+
+  .hero-text p {
+    margin-bottom: 5%;
+  }
+
+  .hero-text {
+    margin-bottom: 5%;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .images-2 {
+    width: 100%;
+  }
+
+  .contact-me {
+    width: 100%;
+  }
+
+  .follow-me {
+    margin-top: 10%;
+  }
+
+  .follow-me p {
+    width: 100%;
+  }
+}

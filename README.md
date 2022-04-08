@@ -28,4 +28,8 @@ Today I was able to solve yestarday problem. But now I found a new problem relat
 
 **Wendsday, April 6, 2022**
 
-It's 1:30 a.m. on April 7. Today I tried to solve the problem from yesterday but I couldn't. I spent all day trying to solve it, but finally I decided start again on a document called new.html and new.css. In this case I forgot the mobile firts methodology and comeback to develop for desktop firts. Why I do this? well, because when I was adding the Media Querys for the distins resolutions I found with a problem series that maked me feel very disorientated. By now largely finished desktop development. 
+It's 1:30 a.m. on April 7. Today I tried to solve the problem from yesterday but I couldn't. I spent all day trying to solve it, but finally I decided start again on a document called new.html and new.css. In this case I forgot the mobile firts methodology and comeback to develop for desktop firts. Why I do this? well, because when I was adding the Media Querys for the distins resolutions I found with a problem series that maked me feel very disorientated. By now largely finished desktop development.
+
+**Thusday, April 7, 2022**
+
+Today I have achieved solved the bugs that I have been commenting on. It's the 7:39 p.m. And for now it only remains add the burguer button menu on the botton in  the page, to make it easier for users to navigate from mobile phones. Also, I will study how I can implement a Dark Mode (In this case Light Mode) to the website. By now I am happy for the evolution of the project. I don't know if start another page to reinforce my knowledge or make the leap to Javascript.
